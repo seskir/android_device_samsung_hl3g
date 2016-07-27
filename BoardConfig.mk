@@ -2,7 +2,7 @@
 -include vendor/samsung/hl3g/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hl3g
+TARGET_OTA_ASSERT_DEVICE := hl3g,hllte
 
 # Architecture
 TARGET_ARCH := arm
