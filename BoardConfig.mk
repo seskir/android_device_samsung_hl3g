@@ -5,7 +5,7 @@
 TARGET_OTA_ASSERT_DEVICE := hl3g,hl3gxx
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod-exynos5260-hl3gxx_00_defconfig
+TARGET_KERNEL_CONFIG := hl3g_defconfig
 
 # RIL
 BOARD_MODEM_TYPE := xmm6262
