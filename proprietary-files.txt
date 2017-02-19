@@ -13,7 +13,7 @@ etc/wifi/nvram_mfg.txt
 etc/wifi/nvram_net.txt
 
 ### RIL
-lib/libsec-ril.so
+lib/libsec-ril.so|99774cda9ee1350ae45529fa99c37068387d1f41
 bin/cbd|a4998309bad2811d510cdfc2c07e5e06ad17df24
 
 ### IR
