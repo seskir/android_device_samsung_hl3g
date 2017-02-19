@@ -14,6 +14,7 @@ etc/wifi/nvram_net.txt
 
 ### RIL
 lib/libsec-ril.so
+bin/cbd|a4998309bad2811d510cdfc2c07e5e06ad17df24
 
 ### IR
 lib/hw/consumerir.default.so
