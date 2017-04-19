@@ -2,8 +2,8 @@
 LOCAL_PATH := device/samsung/hl3g
 
 # Ramdisk
-PRODUCT_COPY_FILES += \
-     $(LOCAL_PATH)/rootdir/init.target.rc:root/init.target.rc \
+PRODUCT_PACKAGES += \
+    init.target.rc \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
