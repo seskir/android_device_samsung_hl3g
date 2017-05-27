@@ -4,6 +4,9 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := hl3g,hl3gxx
 
+# Include path
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/hl3g/include
+
 # Kernel
 TARGET_KERNEL_CONFIG := hl3g_defconfig
 
