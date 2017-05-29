@@ -19,7 +19,7 @@
 
 ## Device Picture 
 
-![Sasmung Galaxy Note 3 Neo] (http://drop.ndtv.com/TECH/product_database/images/1312014111358AM_635_Samsung_Galaxy_Note3_Neo.jpeg "Sasmung Galaxy Note 3 Neo")
+![Sasmung Galaxy Note 3 Neo](http://drop.ndtv.com/TECH/product_database/images/1312014111358AM_635_Samsung_Galaxy_Note3_Neo.jpeg "Sasmung Galaxy Note 3 Neo")
 
 ## Copyright
 
