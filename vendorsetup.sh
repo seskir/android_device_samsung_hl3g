@@ -1,2 +1,0 @@
-add_lunch_combo lineage_hl3g-eng
-add_lunch_combo lineage_hl3g-userdebug

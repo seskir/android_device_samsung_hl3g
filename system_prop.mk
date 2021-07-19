@@ -1,4 +1,5 @@
-# Copyright (C) 2016 The Android Open Source Project
+#
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,21 +12,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-# Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+# Dalvik Heap
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.heapstartsize=16m \
+    dalvik.vm.heapgrowthlimit=192m \
+    dalvik.vm.heapsize=512m \
+    dalvik.vm.heaptargetutilization=0.75 \
+    dalvik.vm.heapminfree=2m \
+    dalvik.vm.heapmaxfree=8m
 
-# Inherit device specific files
-$(call inherit-product, device/samsung/hl3g/device.mk)
-
-# HL3G vendor
-$(call inherit-product-if-exists, vendor/samsung/hl3g/hl3g-vendor.mk)
-
-# Overrides
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_hl3g
-PRODUCT_DEVICE := hl3g
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-N750
-PRODUCT_MANUFACTURER := samsung
-
+# Radio
+PRODUCT_PROPERTY_OVERRIDES += \
+    keyguard.no_require_sim=true
